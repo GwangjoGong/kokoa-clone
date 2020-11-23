@@ -10,7 +10,7 @@
   border-bottom: var(--main-border);
 }
 
-.settings-setting {
+.settings-setting__column {
   width: 100%;
   height: 50px;
   display: flex;
@@ -19,16 +19,16 @@
   border-bottom: var(--secondary-border);
 }
 
-.settings-setting:last-child {
+.settings-setting__column:last-child {
   border: none;
 }
 
-.settings-setting i {
+.settings-setting__column i {
   width: 20px;
   margin-right: 20px;
 }
 
-.settings-setting small {
+.settings-setting__column small {
   margin-left: auto;
   color: var(--light-grey);
 }
