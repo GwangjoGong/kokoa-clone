@@ -1,4 +1,4 @@
-.screen-header {
+.alt-header {
   width: 100%;
   display: flex;
   padding: var(--horizontal-space);
@@ -10,11 +10,7 @@
   background-color: white;
 }
 
-.screen-header__title {
-  font-size: 1.6em;
+.alt-header__column h1 {
+  font-size: 1.2rem;
   font-weight: 600;
-}
-
-.screen-header__icons span {
-  margin-left: 20px;
 }

@@ -1,0 +1,34 @@
+.settings-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.settings-list:first-child {
+  padding-top: 0;
+  border-bottom: var(--main-border);
+}
+
+.settings-setting {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  border-bottom: var(--secondary-border);
+}
+
+.settings-setting:last-child {
+  border: none;
+}
+
+.settings-setting i {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.settings-setting small {
+  margin-left: auto;
+  color: var(--light-grey);
+}
