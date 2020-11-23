@@ -26,9 +26,11 @@
 }
 
 .message-row {
+  visibility: hidden;
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  animation: show forwards;
 }
 
 .message-row__photo {
@@ -76,6 +78,24 @@
   margin-right: 0;
 }
 
+.message-row {
+  animation-delay: 0.5s;
+}
+
+.message-row--own {
+  animation-delay: 1.5s;
+}
+
+@keyframes show {
+  from {
+    visibility: hidden;
+  }
+
+  to {
+    visibility: visible;
+  }
+}
+
 .reply {
   position: fixed;
   bottom: 0;
@@ -106,6 +126,14 @@
   border: var(--main-border);
   border-radius: 25px;
   box-sizing: border-box;
+  transition: 0.5s ease-in-out;
+}
+
+.reply input:hover,
+.reply input:focus {
+  margin-left: -36px;
+  width: 112%;
+  transition: 0.5s ease-in-out;
 }
 
 .reply__column:last-child > i,

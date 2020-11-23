@@ -114,3 +114,8 @@
   color: white;
   font-size: 0.7em;
 }
+
+.open-post__likes i:hover {
+  color: red;
+  transition: 0.3s ease-in-out;
+}
