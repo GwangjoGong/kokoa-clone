@@ -55,7 +55,7 @@
   margin-bottom: 8px;
   display: block;
 }
-.user-component__column i {
+.user-component__column .user-component__column--bold i {
   color: black;
   font-size: 2rem;
 }
